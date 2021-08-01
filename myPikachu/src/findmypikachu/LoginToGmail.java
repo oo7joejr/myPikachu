@@ -14,6 +14,6 @@ public class LoginToGmail {
       Thread.sleep(3000);
       driver.findElement(By.name("password")).sendKeys("ohjesushelpus",Keys.ENTER);
       Thread.sleep(4000);
-      //driver.close();
+      driver.close();
    }
 }
